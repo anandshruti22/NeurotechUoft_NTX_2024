@@ -21,7 +21,7 @@ from tensorflow.keras import layers, models, initializers
 
 def create_model():
     dropout_rate = 0.2
-    input_layer = layers.Input(shape=(401, 3))
+    input_layer = layers.Input(shape=(401, 6))
 
     x = layers.Conv1D(filters=32, kernel_size=3, strides=2, activation='relu', kernel_initializer=initializers.HeNormal(), padding="same")(input_layer)
     x = layers.BatchNormalization()(x)

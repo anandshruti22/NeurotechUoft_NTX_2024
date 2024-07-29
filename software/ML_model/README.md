@@ -16,7 +16,7 @@ We designed our TCNN model with the following key components and considerations:
 - **Large Number of Filters**: Employed in the 1D convolutional layers (32, 64) to capture a richer set of features from the EEG input data.
 
 Our model is inspired by the architecture used by Lun et al. but we simplified the architecture slightly to reduce overfitting in our specific task. Below is the model architecture the aforementioned paper used.
-![Model Architecture](https://github.com/blob/main/software/ML_model/model_inspiration.png)
+![Model Architecture](./software/ML_model/model_inspiration.png)
 ### Model Code
 ```python
 from tensorflow.keras import layers, models, initializers

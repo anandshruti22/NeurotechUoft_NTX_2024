@@ -76,6 +76,8 @@ We collected additional data in a manner similar to the dataset's original colle
 
 ## Citation
 He, K., Zhang, X., Ren, S., & Sun, J. (2015, February 6). Delving deep into rectifiers: Surpassing human-level performance on ImageNet Classification. arXiv.org. https://arxiv.org/abs/1502.01852
+Lun, X., Yu, Z., Chen, T., Wang, F., & Hou, Y. (2020a, July 31). A simplified CNN classification method for Mi-EEG via the electrode pairs signals. Frontiers. https://www.frontiersin.org/articles/10.3389/fnhum.2020.00338/full#B10 
+
 
 ## Summary
 Our approach focused on hyperparameter tuning and short epoch training sessions while adjusting learning rates and schedules to achieve stable convergence. The use of TCNNs with He initialization and significant dropout proved effective in addressing the vanishing/exploding gradient issues, resulting in competitive performance in EEG classification tasks.

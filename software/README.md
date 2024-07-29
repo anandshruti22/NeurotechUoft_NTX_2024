@@ -10,7 +10,8 @@
 ├── test_data
 │   ├── processed test data files (bandpass filter of 1-4Hz + epoch)
 │   ├── processed training data files (bandpass filter of 13-17Hz + baseline correction + epoch)
-│   ├── description on how test data was collected 
+│   ├── data_collection_method.md: description on how test data was collected
+│   ├── testing_model.md: python notebook where test data was used to see performance of model
 ```
 
 ## Preprocessing Code

@@ -1,7 +1,12 @@
 # EEG Classification with Temporal Convolutional Neural Networks (TCNN)
 
 ## Overview
-In our project, we faced significant issues with vanishing and exploding gradients when attempting to train an RNN/LSTM-based model for EEG classification tasks. To address these challenges, we explored the use of Temporal Convolutional Neural Networks (TCNNs), which have shown success in similar tasks such as motion imagery classification (Lun et al., 2020). This document outlines the architecture, training strategy, and performance of our TCNN model.
+For our project, we used a temporal Convolution Neural Network that uses 1d convolutions over the EEG data and then makes a class prediction with a final sigmoid layer.
+We did this for a few reasons:
+- we faced significant issues with vanishing and exploding gradients when attempting to train an RNN/LSTM-based model for EEG classification tasks.
+- RNNs/LSTMs take significantly longer to train well than CNNs
+
+To address these challenges, we explored the use of Temporal Convolutional Neural Networks (TCNNs), which have shown success in similar tasks such as motion imagery classification (Lun et al., 2020). This document outlines the architecture, training strategy, and performance of our TCNN model.
 
 ## Model Architecture
 We designed our TCNN model with the following key components and considerations:
@@ -75,7 +80,7 @@ These results are competitive with other machine learning models used for motor 
 We collected additional data in a manner similar to the dataset's original collection process. Our model achieved around 80% accuracy in predicting hand motions on this new data as well.
 
 ## Citation
-He, K., Zhang, X., Ren, S., & Sun, J. (2015, February 6). Delving deep into rectifiers: Surpassing human-level performance on ImageNet Classification. arXiv.org. https://arxiv.org/abs/1502.01852
+He, K., Zhang, X., Ren, S., & Sun, J. (2015, February 6). Delving deep into rectifiers: Surpassing human-level performance on ImageNet Classification. arXiv.org. https://arxiv.org/abs/1502.01852 <br>
 Lun, X., Yu, Z., Chen, T., Wang, F., & Hou, Y. (2020a, July 31). A simplified CNN classification method for Mi-EEG via the electrode pairs signals. Frontiers. https://www.frontiersin.org/articles/10.3389/fnhum.2020.00338/full#B10 
 
 

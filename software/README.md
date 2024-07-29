@@ -15,3 +15,10 @@
 ```
 
 ## Preprocessing Code
+
+## ML Model
+```
+├── ML Model
+│   ├── model_training.ipynb: model training code
+│   ├── model_description.md
+```

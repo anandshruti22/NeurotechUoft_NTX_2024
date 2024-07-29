@@ -5,7 +5,6 @@ NeurotechUofT submission to NTX competition 2024
 ##### Software Subsystem: 
 * Subsystem Lead: Shruti Anand 
 * Subsystem Members: Brandon Wong, Naoraj Farhan, Yunran Yang
-* 
 ##### Hardware Subsystem:
 * Subsystem Lead: Shuntaro Wakamatsu
 * Subsystem Members: Nafew Islam, Robert Youssef, Luna Sun 

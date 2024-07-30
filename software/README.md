@@ -15,10 +15,16 @@
 ```
 
 ## Preprocessing Code
+```
+├── Preprocessing
+│   ├── preprocessing.ipynb: preprocessing code showing time frequency analysis and epoching
+│   ├── citations.md: Details regarding citations justifying our use of C2, C4, Cz channels
+│   ├── raw_data.md: Link to the raw data that is used for model training
+```
 
 ## ML Model
 ```
 ├── ML Model
 │   ├── model_training.ipynb: model training code
-│   ├── model_description.md
+│   ├── model_description.md: Details regarding model architecture and citations
 ```

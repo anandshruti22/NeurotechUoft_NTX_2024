@@ -25,16 +25,16 @@ The prosthetic arm features 5 SG90 servo motors placed inside the palm. Continuo
 - **Control**: An Arduino microcontroller (tested with Arduino Due) runs the `control.ino` code (located in `hardware/ArduinoCode/control.ino`) to manage motor rotation.
 - **String Mechanism**: For each finger, a strong (able to withstand at least 6kg of load) string (with a diameter of no more than 2.0 mm) is threaded through holes in the finger components. At the fingertip, the strings are securely tied to prevent them from slipping out. The other end of the strings is firmly attached to the servo motor shaft using modified servo motor horns and super glue. The horns create a groove where the strings wind and unwind.
 - **Motor Control Wires**: The wires from the motors exit through five square windows at the wrist cross-section. The power pins (orange) receive 5V voltage and draw a current of 360mA. Since Arduino Due has only one 5V pin, two Arduino Power Supply Modules provide additional 4 5V power pins (2 power pins for each supply module). The ground pins (black) of the motors are connected to the same voltage. Control pins (yellow) are connected to the digital pins of the Arduino Due as follows:
-  - Thumb: Pin 2
-  - Index: Pin 9
-  - Middle: Pin 10
-  - Ring: Pin 11
-  - Pinky: Pin 12
+  - Thumb:   Pin 2
+  - Index:   Pin 9
+  - Middle:  Pin 10
+  - Ring:    Pin 11
+  - Pinky:   Pin 12
 - **Feedback Wires**: On top of each finger, wires form a closed circuit. One end connects to a 3.3V power source, while the other end attaches to the analog pins of the Arduino Due:
-  - Index: A0
-  - Middle: A1
-  - Ring: A2
-  - Pinky: A3
+  - Index:   A0
+  - Middle:  A1
+  - Ring:    A2
+  - Pinky:   A3
   - A short jumper wire with woven edges ensures good contact. When the fingers are fully extended, the woven edges touch, creating a 3.3V signal. Arduino detects this and stops motor rotation.
 - **Rubber Bands**: Plastic hair ties hooked onto small protrusions on each finger joint assist in retracting the fingers when the motor unwinds. Adjust their length to maintain tension.
 

@@ -1,5 +1,5 @@
 # NeurotechUoft_NTX_2024
-NeurotechUofT submission to NTX competition 2024
+The University of Toront's Neurotechnology design team's submission to NTX competition 2024
 
 ## Contributors:
 ##### Software Subsystem: 

@@ -47,10 +47,13 @@ Navigate through our repository and find the following information:
 ### Hardware Equipment required: 
 * Raspberry Pi 4
 * Arduino
+* Jumper wires
+* 2 Arduino Power Supply Modules
 *  5 SG90 servo motors
 *  PLA for 3d Printing
 *  Rubber bands
-*  Wires
+*  USB-A to MicroUSB cable
+*  2 AC to DC power coverters
   
 ### Software libraries to be installed: 
 Read requirements.txt file for python libraries needed to run the code in the software subsystem folder. 

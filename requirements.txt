@@ -1,0 +1,13 @@
+numpy
+mne
+tensorflow
+keras
+csv
+pickle
+matplotlib
+serial
+argparse
+time
+sys
+os
+brainflow

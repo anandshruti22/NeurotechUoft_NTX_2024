@@ -3,7 +3,7 @@ NeurotechUofT submission to NTX competition 2024
 
 ## Contributors:
 ##### Software Subsystem: 
-* Subsystem Lead: Shruti Anand 
+* Subsystem Lead: Shruti Anand (BaSc Biomedical Engineering, Year 3) 
 * Subsystem Members: Brandon Wong, Naoraj Farhan, Yunran Yang
 ##### Hardware Subsystem:
 * Subsystem Lead: Shuntaro Wakamatsu
@@ -22,31 +22,33 @@ Our aim is to create a prototype of a mind controlled prosthetic hand that can c
 
 3) Retrieve relevant EEG signals from OpenBCI headset
 
+
+## Pipeline:
+
+The flow of data in our EEG controlled prosthetic hand works as follows:
+1) Setup and Connection: Connect the OpenBCI headset to the OpenBCI Cyton board.
+2) Data Transmission: Communicate with  Raspberry Pi through OpenBCI dongle. 
+3) Data Streaming: Implement BrainFlow to stream EEG data live.
+4) Data Processing : Run signal processing algorithms to denoise the EEG signals.
+5) Machine Learning Model Execution : Execute the machine learning model to classify EEG signals.
+6) Communication with Arduino: Send the result of the ML model to an Arduino via serial communication
+7) Hand Motion: Arduino instructs the motors on the prosthetic hand to conduct the specified hand motion
+
 ## Navigation
 
 Navigate through our repository and find the following information: 
-```
-├── Software Subsystem:
-│   ├── css
-│   │   ├── **/*.css
-│   ├── favicon.ico
-│   ├── images
-│   ├── index.html
-│   ├── js
-│   │   ├── **/*.js
-│   └── partials/template
-├── Hardware Subsystem
-│   ├── css
-│   │   ├── **/*.css
-│   ├── favicon.ico
-│   ├── images
-│   ├── index.html
-│   ├── js
-│   │   ├── **/*.js
-│   └── partials/template
-├── Presentation
-│   ├── Recording
-│   ├── Demo Video
-│   ├── Slides
 
-```
+* Software Subsystem: Our code to preprocess training data, train our ML model, and test our ML model using data we collected.
+* Hardware Subsystem: Our CAD Files containing our prosthetic hand design, hand assembly instructions, Arduino code to control the hand, and a PCB design to be implemented in future iterations.
+* Presentation: Our Presentation recording and the associated slides.
+
+## Equipment and Software Installation: 
+
+### Hardware Equipment required: 
+* Raspberry Pi 4
+* Arduino
+* **Add all equipment**
+### Software libraries to be installed: 
+Read requirements.txt file for python libraries needed to run the code in the software subsystem folder. 
+
+

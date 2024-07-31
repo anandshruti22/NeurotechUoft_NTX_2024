@@ -47,7 +47,11 @@ Navigate through our repository and find the following information:
 ### Hardware Equipment required: 
 * Raspberry Pi 4
 * Arduino
-* **Add all equipment**
+*  5 SG90 servo motors
+*  PLA for 3d Printing
+*  Rubber bands
+*  Wires
+  
 ### Software libraries to be installed: 
 Read requirements.txt file for python libraries needed to run the code in the software subsystem folder. 
 

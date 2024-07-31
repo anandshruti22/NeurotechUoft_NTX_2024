@@ -1,5 +1,10 @@
 # Files
 
+## Raspberry Pi
+```
+├── real_time_processing.py: code loaded onto raspberry pi that interpets EEG signals and sends ML model output to Arduino via serial communication
+```
+
 ## Data 
 
 ```
@@ -28,3 +33,4 @@
 │   ├── model_training.ipynb: model training code
 │   ├── model_description.md: Details regarding model architecture and citations
 ```
+

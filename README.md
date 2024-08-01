@@ -4,7 +4,7 @@ The University of Toronto's Neurotechnology design team's submission to NTX comp
 ## Contributors:
 ##### Software Subsystem: 
 * Subsystem Lead: Shruti Anand (Undergrad Biomedical Engineering, Year 3) 
-* Subsystem Members: Brandon Wong (Undergrad Computer Science, Year 2), Naoroj Farhan (Undergrad Computer Science, Year 1), Yunran Yang (2nd Year Computer Engineering)
+* Subsystem Members: Brandon Wong (Undergrad Computer Science, Year 2), Naoroj Farhan (Undergrad Computer Science, Year 1), Yunran Yang (Undergrad Computer Engineering, Year 2)
 ##### Hardware Subsystem:
 * Subsystem Lead: Shuntaro Wakamatsu (Undergrad Computer Engineering, Year 3)
 * Subsystem Members:

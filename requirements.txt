@@ -1,6 +1,6 @@
 numpy
 mne
-tensorflow
+tensorflow==2.15
 keras
 csv
 pickle

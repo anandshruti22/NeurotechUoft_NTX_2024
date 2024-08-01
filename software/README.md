@@ -35,3 +35,5 @@
 │   ├── model_description.md: Details regarding model architecture and citations
 ```
 
+# How to run
+To integrate with the prosthetic hand simple load the real_time_processing.py file along with the model_with_delta.keras file onto the Raspberry Pi. Then, run the real_time_preocessing.py code on the Raspberry Pi.

@@ -31,6 +31,7 @@
 ```
 ├── ML Model
 │   ├── model_training.ipynb: model training code
+│   ├── model_with_delta.keras: model to be loaded
 │   ├── model_description.md: Details regarding model architecture and citations
 ```
 
